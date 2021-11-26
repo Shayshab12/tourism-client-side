@@ -1,0 +1,11 @@
+
+.back{
+    background-image: url('https://images.pexels.com/photos/10027326/pexels-photo-10027326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+}
+
+@media only screen and (min-width: 1080px) {
+    .width{
+        width: 25%;
+    }
+}

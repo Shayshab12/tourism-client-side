@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white
+ }
+ .caption{
+    font-size: 25px;
+    font-weight: bolder;
+ }
+ .BL {
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+ }
+ .TL{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+ }
+ .center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+ .description{
+    font-family: 'Lily Script One', cursive;
+ }
+ .title{
+    font-family: 'Lilita One', cursive;
+ }
+.description2{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.images {
+   height: 500px;
+}
+.img{
+   height: 250px;
+}
+.filter img{
+   filter: grayscale(50%);
+}
+
+/* carousal */
+.carousel img{
+   width: 800px;
+   height: 800px;
+  
+}
+.caption-details{
+   margin-bottom: 13rem;
+   font-weight: bold;
+}
+.caption-details img{
+   width: 70%;
+   height: 50%;
+}
+.caption-details h1{
+   font-size: 70px;
+   font-weight: 900;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caption-details p{
+   font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+   .caption-details h1{
+       font-size: 35px;
+   }
+   .caption-details p{
+       font-size: 10px;
+   }
+}

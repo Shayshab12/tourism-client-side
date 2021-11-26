@@ -1,0 +1,12 @@
+.top{
+    background-image: url('https://roam.qodeinteractive.com/wp-content/uploads/2017/08/blog-title-img-1.jpg');
+    height: 550px;
+    background-position: center ;
+}
+.top h1{
+    font-size: 80px;
+}
+
+hr {
+    border-top: 3px dotted #7ae6e6 ;   
+}
